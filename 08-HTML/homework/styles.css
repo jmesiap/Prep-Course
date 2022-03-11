@@ -1,0 +1,20 @@
+.divClass > h1 {
+    color:coral;
+}
+#thirdDiv>ul>li>img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 830px;
+    width: 500px;
+    background-color: blue;
+    padding: 20px;
+    border: solid 10px yellow;
+    /*border-color: yellow;
+    border-width: 56px;*/
+}
+
+#spanId {
+    font-size: 28px;
+    margin: 10px;
+}
