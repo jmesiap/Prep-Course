@@ -1,15 +1,33 @@
 .divClass > h1 {
     color:coral;
+    display: flex;
+    /*justify-content: center;    centra el H1*/
+    
 }
+
+.divClass{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    /*position: relative; top: 10px; left: 500px;*/
+}
+
 #thirdDiv>ul>li>img {
     width: 400px;
 }
+
 #thirdDiv {
+    position: relative; top: 10px; left: 500px;
     height: 830px;
     width: 500px;
     background-color: blue;
     padding: 20px;
     border: solid 10px yellow;
+     
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    
     /*border-color: yellow;
     border-width: 56px;*/
 }
@@ -18,3 +36,13 @@
     font-size: 28px;
     margin: 10px;
 }
+
+body {
+    height: 800px;
+    background-image: url("https://images.pexels.com/photos/1931141/pexels-photo-1931141.jpeg?cs=srgb&dl=pexels-scott-webb-1931141.jpg&fm=jpg");
+    background-size: cover;
+    background-size: 70rem;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+  }
