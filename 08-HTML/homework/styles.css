@@ -18,10 +18,10 @@
 
 #thirdDiv {
     position: relative; top: 10px; left: 500px;
-    height: 830px;
+    height: 600px;
     width: 500px;
     background-color: blue;
-    padding: 20px;
+    padding: 50px;
     border: solid 10px yellow;
      
     /*display: flex;
